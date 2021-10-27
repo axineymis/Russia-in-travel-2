@@ -1,0 +1,22 @@
+.place__text {
+
+margin-top: 0;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 163%;
+/* or 29px */
+
+color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .place__text {
+        font-size: 16px;
+        line-height: 163%;
+        margin-bottom: 25px;
+    }
+    }
+
+    

@@ -1,0 +1,21 @@
+.places {
+    position: relative;
+    display: grid;
+    max-width: 984px;
+    margin-top: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: 2px solid red; */
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        margin-top: 64px;
+        justify-content: start;
+        align-self: start;
+        margin-bottom: 0;
+        column-gap: 32px;
+    }
+}
+
+    

@@ -1,0 +1,12 @@
+.place__paragraph {
+    margin-bottom: 50px;
+}
+
+
+
+ 
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        padding-left: 16px;
+    }
+    }  

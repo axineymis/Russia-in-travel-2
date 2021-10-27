@@ -1,0 +1,31 @@
+.header__lang-link {
+    position: absolute;
+    display: flex;
+    width: 30px;
+    height: 28px;
+    margin-top: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.header__lang-link:last-child {
+    right: 0;
+}
+.header__lang-link:nth-child(2n) {
+    right: 47px; 
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+    width: 22px;
+    height: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    }
+    
+    }

@@ -1,0 +1,25 @@
+.footer__copyright {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+    /* outline: rgb(70, 57, 114) solid 3px; */
+    text-align: right;
+    
+    color: #FFFFFF; 
+}
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+     justify-content: start;
+      font-size: 14px;
+      line-height: 14px;
+      width: 100%;
+      margin-bottom: 24px;
+    }
+    }  

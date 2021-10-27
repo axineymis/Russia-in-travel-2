@@ -1,0 +1,21 @@
+.intro__title {
+display: flex;
+max-width: 690px;
+margin-top: 0;
+margin-bottom: 0;
+font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 54px;
+line-height: 58px;
+/* identical to box height, or 107% */
+
+color: #FFFFFF;
+}
+
+    @media screen and (max-width: 320px) {
+        .intro__title {
+            font-size: 32px;
+            line-height: 35px;
+        }
+        }  
