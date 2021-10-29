@@ -2,17 +2,17 @@
   position: relative;
   display: flex;
   max-width: calc(100% - 96px);
-  height: 52px;
   margin-left: auto;
   margin-right: auto;
-  top: 28px;
+  padding-top: 28px;
   justify-content: space-between;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 @media screen and (max-width: 768px) {
 .header {
-  max-width: calc(100% - 48px);  
+  max-width: calc(100% - 48px);
+  padding-top: 0;  
   }
 }
 
@@ -20,6 +20,7 @@
 .header {
   max-width: calc(100% - 32px);
   top: 16px;
+  margin-bottom: 48px;
   }
 }
 

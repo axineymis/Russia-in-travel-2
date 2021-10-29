@@ -20,10 +20,11 @@
 
 @media screen and (max-width: 768px) {
 .place {
-  grid-template-columns: 340px 1fr;
+  grid-template-columns: 340px 352px;
   grid-template-rows: 1fr auto;
   column-gap: 28px;
   row-gap: 48px;
+  margin-bottom: 23px;
   }
 }
 

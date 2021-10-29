@@ -12,8 +12,9 @@
   justify-content: center;
   position: relative;
   /* outline: 3px red solid; */
-  margin-top: 92px; 
+  margin-top: 12px; 
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .cover::before {
@@ -31,8 +32,24 @@
   opacity: 0.8;
 }
 
+@media screen and (max-width: 1024px) {
+.cover {
+  max-width: 1024px;
+  min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+.cover {
+  max-width: 768px;
+  min-height: 480px;
+  }
+}  
+
 @media screen and (max-width: 320px) {
 .cover {
+  max-width: 320px;
+  min-height: 200px;
   flex-direction: column;
   margin-top: 0;
   }

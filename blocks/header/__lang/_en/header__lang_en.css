@@ -1,5 +1,4 @@
 .header__lang_en {
-    width: 30px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -9,4 +8,11 @@
     /* identical to box height, or 117% */
     color: #FFFFFF;
     text-decoration: none;
+  }
+
+  @media screen and (max-width: 320px) {
+  .header__lang_en {
+    font-size: 18px;
+    line-height: 20px;
+    }
   }

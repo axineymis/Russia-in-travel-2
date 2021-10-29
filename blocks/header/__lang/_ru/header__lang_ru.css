@@ -1,5 +1,4 @@
 .header__lang_ru {
-  width: 30px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -8,6 +7,13 @@
   margin-left: 18px;
   /* identical to box height, or 117% */
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+.header__lang_ru {
+  font-size: 18px;
+  line-height: 20px;
+  }
 }
 
 
