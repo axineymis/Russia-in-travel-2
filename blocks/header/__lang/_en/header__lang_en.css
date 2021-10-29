@@ -1,0 +1,12 @@
+.header__lang_en {
+    width: 30px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 18px;
+    /* identical to box height, or 117% */
+    color: #FFFFFF;
+    text-decoration: none;
+  }

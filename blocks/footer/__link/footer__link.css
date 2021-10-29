@@ -9,6 +9,9 @@
   /* identical to box height, or 112% */
   /* outline: rgb(0, 255, 55) solid 3px; */
   color: #FFFFFF;
+  margin-left: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 @media screen and (max-width: 320px) {

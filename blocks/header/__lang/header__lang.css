@@ -1,0 +1,6 @@
+.header__lang {
+  display: flex;
+  align-items: flex-end;
+  outline: orange solid 2px;
+}
+
