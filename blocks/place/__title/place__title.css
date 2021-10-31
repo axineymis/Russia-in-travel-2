@@ -14,20 +14,20 @@
 }
 
 @media screen and (max-width: 768px) {
-.place__title{
-  font-size: 42px;
-  line-height: 46px;
+  .place__title{
+    font-size: 42px;
+    line-height: 46px;
   }
 }
 
 @media screen and (max-width: 320px) {
-.place__title {
-  font-size: 32px;
-  line-height: 35px;
-  justify-items: start;
-  justify-content: start;
-  align-self: start;
-  margin-top: 0;
-  padding-left: 16px;
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    justify-items: start;
+    justify-content: start;
+    align-self: start;
+    margin-top: 0;
+    padding-left: 16px;
   }
 }  

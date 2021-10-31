@@ -4,30 +4,30 @@
 }
 
 @media screen and (max-width: 1000px) {
-.place__image {
-  width: 410px;
-  height: 410px;
+  .place__image {
+    width: 410px;
+    height: 410px;
   }
 }
 
 @media screen and (max-width: 800px) {
-.place__image {
-  width: 400px;
-  height: 400px;
+  .place__image {
+    width: 400px;
+    height: 400px;
   }
 }
 
 @media screen and (max-width: 768px) {
-.place__image {
-  width: 340px;
-  height: 340px;
+  .place__image {
+    width: 340px;
+    height: 340px;
   }
 }
        
 @media screen and (max-width: 320px) {
-.place__image {
-  width: 320px;
-  height: 320px;
+  .place__image {
+    width: 320px;
+    height: 320px;
   }
 }
         

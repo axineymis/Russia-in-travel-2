@@ -13,12 +13,12 @@
 }
 
 @media screen and (max-width: 768px) {
-.lead__coption{
-  margin-left: 24px;
+  .lead__coption{
+    margin-left: 24px;
   }
 }
 @media screen and (max-width: 320px) {
-.lead__coption {
-  margin-left: 16px; 
+  .lead__coption {
+    margin-left: 16px; 
   }
 }

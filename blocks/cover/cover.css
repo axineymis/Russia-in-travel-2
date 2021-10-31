@@ -33,25 +33,25 @@
 }
 
 @media screen and (max-width: 1024px) {
-.cover {
-  max-width: 1024px;
-  min-height: 640px;
+  .cover {
+    max-width: 1024px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
-.cover {
-  max-width: 768px;
-  min-height: 480px;
+  .cover {
+    max-width: 768px;
+    min-height: 480px;
   }
 }  
 
 @media screen and (max-width: 320px) {
-.cover {
-  max-width: 320px;
-  min-height: 200px;
-  flex-direction: column;
-  margin-top: 0;
+  .cover {
+    max-width: 320px;
+    min-height: 200px;
+    flex-direction: column;
+    margin-top: 0;
   }
 }  
 

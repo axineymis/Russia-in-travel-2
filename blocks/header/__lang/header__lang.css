@@ -1,13 +1,10 @@
 .header__lang {
   display: flex;
   align-items: flex-end;
-  
 }
 
 @media screen and (max-width: 320px) {
   .header__lang {
-   align-items: center;
-    }
+    align-items: center;
   }
-  
-
+}
