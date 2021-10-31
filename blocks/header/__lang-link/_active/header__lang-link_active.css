@@ -1,4 +1,4 @@
-.header__lang_ru {
+.header__lang-link_active {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -7,10 +7,11 @@
   margin-left: 18px;
   /* identical to box height, or 117% */
   color: #FFFFFF;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 320px) {
-.header__lang_ru {
+.header__lang-link_active  {
   font-size: 18px;
   line-height: 20px;
   }

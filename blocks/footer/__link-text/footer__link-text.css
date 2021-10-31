@@ -1,14 +1,13 @@
 .footer__link-text {
-margin-right: 18px;
-text-decoration: none;
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 18px;
-color: #FFFFFF;
+  margin-right: 18px;
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
 }
-
 
 @media screen and (max-width: 320px) {
 .footer__link-text {
@@ -18,6 +17,6 @@ color: #FFFFFF;
   font-weight: normal;
   font-size: 24px;
   line-height: 24px;
-    }
-    }  
+  }
+}  
     

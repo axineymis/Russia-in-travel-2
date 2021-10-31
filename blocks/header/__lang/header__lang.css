@@ -1,6 +1,7 @@
 .header__lang {
   display: flex;
   align-items: flex-end;
+  
 }
 
 @media screen and (max-width: 320px) {
