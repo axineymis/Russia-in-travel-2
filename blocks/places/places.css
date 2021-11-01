@@ -24,6 +24,23 @@
   }
 }
 
+@media screen and (max-width: 940px) {
+    .places {
+      
+      margin-top: 88px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
+
+  @media screen and (max-width: 855px) {
+    .places {
+     
+      margin-top: 88px;
+      margin-left: 32px;
+      margin-right: 32px;
+    }
+  }
 @media screen and (max-width: 768px) {
   .places {
     max-width: 720px;
@@ -34,24 +51,15 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .places {
-    max-width: 720px;
-    margin-top: 88px;
-    margin-left: 24px;
-    margin-right: 24px;
-   
-  }
-}
 
 @media screen and (max-width: 320px) {
   .places {
-    margin-top: 64px;
+    margin-top: 0;
     justify-content: start;
     align-self: start;
     margin-left: 0;
     margin-bottom: 0;
-    
+    margin-right: 0;
   }
 }
 
