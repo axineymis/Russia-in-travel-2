@@ -10,6 +10,7 @@
   /* outline: orangered solid 1px; */
 }
 
+
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 440px auto;
@@ -50,6 +51,7 @@
 @media screen and (max-width: 768px) {
   .place {
     max-width: 720px;
+    /* grid-template-columns: minmax(min-content, 340px) auto; */
     grid-template-columns: 340px auto;
     grid-template-rows: auto auto;
     column-gap: 28px;
@@ -57,21 +59,12 @@
     margin-bottom: 48px;
   }
 }
-@media screen and (max-width: 670px) {
-  .place {
-    max-width: 620px;
-    grid-template-columns: 300px auto;
-    grid-template-rows: auto auto;
-    column-gap: 28px;
-    row-gap: 48px;
-    margin-bottom: 73px;
-  }
-}
 
-@media screen and (max-width: 580px) {
+
+@media screen and (max-width: 650px) {
   .place {
-    max-width: 320px;
-    grid-template-columns: repeat(auto-fill, 320px);
+    /* max-width: 580px; */
+    grid-template-columns: minmax(min-content, max-content);
     
   }
 }
@@ -79,55 +72,13 @@
 @media screen and (max-width: 320px) {
   .place {
     max-width: 320px;
-    grid-template-columns: repeat(auto-fill, 320px);
+    grid-template-columns: minmax(min-content, max-content);
     row-gap: 32px;
     margin-bottom: 0;
   }
 }
 
 
-/* .place {
-  position: relative;
-  display: grid;
-  max-width: 984px;
-  grid-template-columns: 460px 1fr;
-  grid-template-rows: 1fr 460px;
-  column-gap: 40px;
-  row-gap: 48px;
-  margin-bottom: 80px;
-}
-
-@media screen and (max-width: 1024px) {
-  .place {
-    grid-template-columns: 440px 1fr;
-    grid-template-rows: 1fr 440px;
-    column-gap: 32px;
-    row-gap: 48px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place {
-    grid-template-columns: 340px 352px;
-    grid-template-rows: 1fr auto;
-    column-gap: 28px;
-    row-gap: 48px;
-    margin-bottom: 23px;
-  }
-}
-
-
-@media screen and (max-width: 320px) {
-  .place {
-    grid-template-columns: repeat(auto-fill, 320px);
-    align-items: start;
-    justify-content: start;
-    align-self: start;
-    margin-bottom: 0;
-    row-gap: 32px;
-    column-gap: 32px;
-  }
-} */
 
         
             

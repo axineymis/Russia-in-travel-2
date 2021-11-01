@@ -1,14 +1,17 @@
 .place__image {
-  max-width: 460px;
+    width: 100%;
+    object-fit: cover;
+  /* max-width: 460px; */
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
    .place__image{
-    max-width: 440px;
+    width: 100%;
+    object-fit: cover;
  }
-}
+} */
 
-@media screen and (max-width: 940px) {
+/* @media screen and (max-width: 940px) {
  .place__image{
   max-width: 405px;
 }
@@ -27,7 +30,9 @@
 }
  @media screen and (max-width: 768px) {
    .place__image{
-    max-width: 340px;
+    width: 100%;
+    object-fit: cover;
+    
  }
 }
 
@@ -40,12 +45,16 @@
 
 @media screen and (max-width: 580px) {
  .place__image {
-   max-width: 320px;
+
+   width: 100%;
+   object-fit: cover;
  }
-}
+} */
  @media screen and (max-width: 320px) {
    .place__image{
-    max-width: 320px;
+     width: 100%;
+     object-fit: cover;
+    /* max-width: 320px; */
  }
 }
 

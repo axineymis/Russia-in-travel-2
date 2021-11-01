@@ -13,7 +13,18 @@
   /* outline: solid red; */
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 530px) {
+  .cover__title {
+    font-size: 52px;
+    line-height: 55px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }  
+}
+
+@media screen and (max-width: 370px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
