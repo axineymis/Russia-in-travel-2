@@ -1,97 +1,11 @@
 .place__image {
-    width: 100%;
-    object-fit: cover;
-  /* max-width: 460px; */
-}
-
-/* @media screen and (max-width: 1024px) {
-   .place__image{
-    width: 100%;
-    object-fit: cover;
- }
-} */
-
-/* @media screen and (max-width: 940px) {
- .place__image{
-  max-width: 405px;
-}
-}
-
-@media screen and (max-width: 855px) {
- .place__image{
-  max-width: 370px;
-}
-}
-
-@media screen and (max-width: 810px) {
-  .place__image{
-   max-width: 355px;
-  }
-}
- @media screen and (max-width: 768px) {
-   .place__image{
-    width: 100%;
-    object-fit: cover;
-    
- }
-}
-
-
-@media screen and (max-width: 670px) {
- .place__image {
-   max-width: 300px;
- }
-}
-
-@media screen and (max-width: 580px) {
- .place__image {
-
-   width: 100%;
-   object-fit: cover;
- }
-} */
- @media screen and (max-width: 320px) {
-   .place__image{
-     width: 100%;
-     object-fit: cover;
-    /* max-width: 320px; */
- }
-}
-
-/* .place__image {
   width: 100%;
-  height: 100%;
+  object-fit: cover;
 }
 
-@media screen and (max-width: 1000px) {
-  .place__image {
-    width: 410px;
-    height: 410px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .place__image {
-    width: 400px;
-    height: 400px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__image {
-    width: 340px;
-    height: 340px;
-  }
-}
-       
 @media screen and (max-width: 320px) {
-  .place__image {
-    width: 320px;
-    height: 320px;
+  .place__image{
+    width: 100%;
+    object-fit: cover;
   }
-} */
-        
-
-
-
-
+}

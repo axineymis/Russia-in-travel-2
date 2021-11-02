@@ -10,7 +10,6 @@
   /* outline: orangered solid 1px; */
 }
 
-
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 440px auto;
@@ -51,7 +50,6 @@
 @media screen and (max-width: 768px) {
   .place {
     max-width: 720px;
-    /* grid-template-columns: minmax(min-content, 340px) auto; */
     grid-template-columns: 340px auto;
     grid-template-rows: auto auto;
     column-gap: 28px;
@@ -60,12 +58,9 @@
   }
 }
 
-
 @media screen and (max-width: 650px) {
   .place {
-    /* max-width: 580px; */
     grid-template-columns: minmax(min-content, max-content);
-    
   }
 }
 
