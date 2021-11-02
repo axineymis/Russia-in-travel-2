@@ -11,23 +11,23 @@
 
 @media screen and (max-width: 1280px) {
   .footer {
-    max-width: calc(100% - 96px);;
+    max-width: calc(100% - 96px);
   }
 }
 
 @media screen and (max-width: 1024px) {
   .footer {
-    max-width: calc(100% - 96px);;
+    max-width: calc(100% - 96px);
     margin-top: 92px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    max-width: calc(100% - 48px);;
+    max-width: calc(100% - 48px);
     margin-top: 74px;
   }
-}  
+}
 
 @media screen and (max-width: 720px) {
   .footer {
@@ -36,7 +36,7 @@
     margin-left: 16px;
     padding-bottom: 0;
   }
-} 
+}
 
 @media screen and (max-width: 320px) {
   .footer {
@@ -45,4 +45,4 @@
     margin-left: 16px;
     padding-bottom: 0;
   }
-}  
+}
