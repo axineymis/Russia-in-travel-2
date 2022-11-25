@@ -2,21 +2,19 @@
 
 Данный проект о путешествиях по стране. Он должен корректно отображаться на экранах популярных размеров 320, 768, 1024 и 1280 пикселей. Тексты написаны  шрифтом ”Inter“ от дизайнеров «Фигмы».
 
-## Stack
-* HTML5 & CSS3
-* Pug
-* SCSS
+## Реализовано
+* Nested БЭМ в качестве файловой структуры
 * Flexbox
-* CSS grid
-* BEM
-* Adaptive web design
-* Responsive web design
-* Mobile first
-* Media queries
-* Web accessibility
-* Relative units
-* Semantic layout
-* Webpack
+* CSS Grid Layout
+* CSS медиа-запросы
+* Подход Desktop First при верстке
+
+## Стек технологий
+* HTML
+* CSS
+
+## Планируемые улучшения
+* Реализовать переключение языков с помощью JavaScript
 
 ### Обзор
 
