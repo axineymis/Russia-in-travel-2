@@ -18,4 +18,4 @@
 
 ### Обзор
 
-*[Ссылка на макет сайт](https://axineymis.github.io/Travel-in-Russia/)
+*[Ссылка на макет сайт]([https://axineymis.github.io/Travel-in-Russia/](https://www.figma.com/file/5H3gsn5lIGPwzBPby9jAOo?node-id=0:1#301685993))
